@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(
+        to right,
+        #53694f 0%,
+        #53694f 50%,
+        #a08060 50%,
+        #a08060 100%
+      );
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+      overflow-y: hidden; /* Hide horizontal scrollbar */
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 0px 64px;
+    }
+    #girl {
+      background-image: url("Asset_Girl5.png"); /*adding a background image*/
+      background-size: 800px; /*stretching the image to the size of the cover*/
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+    .Navbar {
+      margin-top: 20px;
+      height: 80px;
+      /* background-color: black; */
+      display: flex;
+      flex-direction: row;
+    }
+    .Navbar div {
+      cursor: pointer;
+    }
+    .Content {
+      width: 100%;
+      height: 630px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .left {
+      border-bottom: 2px solid #f8f3e7;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+    }
+    .middle {
+      border-bottom: 2px solid #f8f3e7;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      width: 800px;
+    }
+    .right {
+      border-bottom: 2px solid #f8f3e7;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+    }
+    .right .icon {
+      color: #a08060;
+    }
+    .icon {
+      color: #53694f;
+      background-color: #f8f3e7;
+      padding: 16px 16px;
+    }
+    .menu {
+      color: #f8f3e7;
+      padding: 0px 16px;
+      text-align: center;
+      font-family: "Courier New", Courier, monospace;
+    }
+    .title {
+      color: #f8f3e7;
+      padding: 16px 16px;
+      width: 600px;
+      text-align: center;
+      justify-content: center;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 32px;
+    }
+
+    .Content div {
+      padding: 8px 0px;
+    }
+    .Content div a {
+      color: #f8f3e7;
+    }
+
+    .Contacts {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+  <body id="">
+    <div id="girl">
+      <div id="girl"></div>
+      <div class="Navbar">
+        <div class="left">
+          <div class="icon">LOGO</div>
+          <div class="menu">
+            <a>Catalog</a>
+          </div>
+          <div class="menu">
+            <a>Collectionpoints</a>
+          </div>
+          <div class="menu">
+            <a>Who we are</a>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="title">
+            <a>FREECYCLE</a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="menu">
+            <a>Delivery</a>
+          </div>
+          <div class="menu">
+            <a>Orders</a>
+          </div>
+          <div class="menu">
+            <a>Balance / 21 Points</a>
+          </div>
+          <div class="icon">LOGO</div>
+          <div class="icon">LOGO</div>
+        </div>
+      </div>
+
+      <div id="" class="Content">
+        <div
+          class="description"
+          style="
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            justify-content: space-around;
+            margin-top: 0px;
+          "
+        >
+          <div style="font-size: 76px; letter-spacing: -2px">
+            <a
+              >FREE CLOTHES <br />
+              FOR THOSE WHO <br />
+              CARE FOR NATURE</a
+            >
+          </div>
+          <div style="font-size: 20px; width: 400px">
+            <a
+              >Get 1 point for 1 kilo of plastic which you bring to our
+              collection points. Then choose any clothes made of recycle
+              materials from our catalog
+            </a>
+          </div>
+          <div
+            style="
+              margin-top: 32px;
+              width: fit-content;
+              padding: 24px 32px;
+              background-color: #e4d4fe;
+              color: #53694f;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+            "
+          >
+            <a style="color: #53694f; font-size: 20px">VIEW CATALOG</a>
+          </div>
+        </div>
+
+        <div
+          class="description"
+          style="
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            justify-content: end;
+            margin-top: 0px;
+            width: 200px;
+          "
+        >
+          <div style="font-size: 20px; width: 100%">
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: -8px;
+              "
+            >
+              <div class="icon" style="width: 40px; height: 24px"></div>
+              <div
+                class="icon"
+                style="width: 40px; height: 24px; margin-left: -24px"
+              ></div>
+              <a style="font-size: 40px"> 09/1 </a>
+            </div>
+          </div>
+          <img
+            src="Asset_rightGirl.jpg"
+            alt=""
+            style="width: 200px; position: right; margin-bottom: "
+          />
+          <div
+            style="
+              display: flex;
+              justify-content: start;
+              flex-direction: column;
+              margin-left: ;
+            "
+          >
+            <a> Green leaf pattern sweater</a>
+            <a> 12 Points</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="Contacts">
+        <div
+          style="
+            background-color: black 0%;
+            width: 100%;
+            height: fit-content;
+            color: #f8f3e7;
+            display: flex;
+            justify-content: start;
+            flex-direction: row;
+            align-items: center;
+          "
+        >
+          <div class="icon">LOGO</div>
+          <div
+            style="
+              display: flex;
+              justify-content: start;
+              flex-direction: column;
+              margin-left: 16px;
+            "
+          >
+            <a> The nearest plastic collection point</a>
+            <a> 5542 Thunderbird La Jolla, California</a>
+          </div>
+        </div>
+
+        <div
+          style="
+            background-color: black 0%;
+            width: 100%;
+            height: fit-content;
+            color: #f8f3e7;
+            display: flex;
+            justify-content: end;
+            flex-direction: row;
+            align-items: center;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              justify-content: start;
+              flex-direction: column;
+              margin-right: 16px;
+            "
+          >
+            <a> 1 extra point for sharing </a>
+          </div>
+          <div class="icon" style="margin-right: 16px">LOGO</div>
+          <div class="icon" style="margin-right: 16px">LOGO</div>
+          <div class="icon">LOGO</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
